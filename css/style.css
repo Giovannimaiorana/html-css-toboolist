@@ -6,6 +6,7 @@
 
     body{
         background-color: rgb(58, 170, 255);
+        font-family: 'Livvic', sans-serif;
     }
     header h1 {
         display: inline-block;
