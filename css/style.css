@@ -39,4 +39,17 @@ h1{
     margin-left: 60px;
     border-radius: 10px;
     border-color: rgb(58, 170, 255);
+    display: inline-block;
+    border: none;
+}
+.bottonebianco{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(212, 216, 220);
+}
+hr{
+    color: rgb(212, 216, 220);
+    margin-top: 10px;
 }
