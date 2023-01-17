@@ -49,13 +49,14 @@
     border-color: rgb(212, 216, 220);
 }
 hr{
-    color: rgb(212, 216, 220);
+    color: rgba(232, 233, 234, 0.1);
     margin-top: 10px;
 }
 
 .newtask{
     margin-left: 60px;
     margin-top: 30px;
+    height: 60px;
 }
 
 .frasespunta{
@@ -76,10 +77,23 @@ h3{
     height: 20px;
     display: inline-block;
     text-align: center;
+    display: inline-block;
 }
 .testospunta{
     margin-left: 5px;
+    display: inline;
+    width: 60px;    
 }
+
 .partefinale{
-    
+background-color: rgb(58, 170, 255);
+font-size: 12px;
+height: 20px;
+width: 60px;
+text-align: center;
+color: white;
+border-radius: 10px;
+padding-top: 3px;
+display: inline-block;
+vertical-align: middle;
 }
