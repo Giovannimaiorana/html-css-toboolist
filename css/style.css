@@ -1,28 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-body{
-    background-color: rgb(58, 170, 255);
-}
+    body{
+        background-color: rgb(58, 170, 255);
+    }
+    header h1 {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 50px;
+        }
+    
+    header img {
+        vertical-align: middle;
+    }
 
-.contenitore{
-   background-color: white;
-   height: 80px;
-   width: 100%;
-   display: inline-block;
-}
-.Logo{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-h1{
-    display: inline-block;
-    font-size: 50px;
-    line-height: 60px;
-}
+    header {
+        background-color: white;
+            padding: 15px 20px;
+        }
+
 .quadrato{
     background-color: white;
     width: 900px;
@@ -52,4 +51,35 @@ h1{
 hr{
     color: rgb(212, 216, 220);
     margin-top: 10px;
+}
+
+.newtask{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.frasespunta{
+    color: rgb(102, 205, 183);
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 50px;
+    
+
+}
+h3{
+    margin-bottom: 10px;
+}
+.spunta{
+    border: 1px solid rgb(102, 205, 183);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.testospunta{
+    margin-left: 5px;
+}
+.partefinale{
+    
 }
