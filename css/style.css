@@ -3,11 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: rgb(58, 170, 255);
 }
 
-.sfondotitolo{
+.contenitore{
+   background-color: white;
+   height: 80px;
+   width: 100%;
+   display: inline-block;
+}
+.Logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h1{
+    display: inline-block;
+    font-size: 50px;
+    line-height: 60px;
+}
+.quadrato{
     background-color: white;
-    height: 70px;
+    width: 900px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.bottoneblu{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(58, 170, 255);
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border-color: rgb(58, 170, 255);
 }
